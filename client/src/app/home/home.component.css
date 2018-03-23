@@ -1,0 +1,33 @@
+.home { 
+ border: 2px solid black;
+}
+a { 
+    color: blue;
+}
+
+tr { 
+ border: 2px solid black; 
+ background-color: lightgray;
+}
+
+td { 
+ border: 2px solid black;
+ color: black;
+}
+
+th { 
+    color:white;
+    background-color: #d3d3d3;
+    /* padding: 15px; */
+}
+
+.details { 
+    color: white; 
+    background-color: #63798a;
+    border-radius: 5px;
+}
+
+.edit { 
+    color: white; 
+    background-color: #898e8e;
+}

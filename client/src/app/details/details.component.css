@@ -1,0 +1,24 @@
+a { 
+    margin-left: 245px;
+    color: blue;
+}
+
+.like { 
+    background-color: lightskyblue;
+    color:white;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 7px;
+}
+
+.adopt { 
+    background-color:#566d77;
+    color:white;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 7px;
+}
+
+b { 
+    font-size: 18px;
+}

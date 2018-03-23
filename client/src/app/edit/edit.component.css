@@ -1,0 +1,26 @@
+.submit { 
+    color:white; 
+    background-color: lightblue;
+    padding:10px; 
+    border-radius: 7px;
+    font-size: 15px;
+    margin-left: 95px;
+}
+
+.button { 
+    color: white; 
+    background-color: lightblue; 
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 7px;
+    margin-left: 15px;
+}
+
+li { 
+    list-style-type: none;
+}
+
+input { 
+    border-radius: 3px;
+    border: 1px solid silver;
+}

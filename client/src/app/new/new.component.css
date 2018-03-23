@@ -1,0 +1,32 @@
+.button { 
+    color: white;
+    background-color: lightskyblue;
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 15px;
+    margin-left: 25px;
+}
+
+.submit { 
+    color:white; 
+    background-color: lightskyblue;
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 15px;
+    margin-left: 120px;
+    
+}
+
+li { 
+    list-style-type: none;
+}
+
+input { 
+    border-radius: 3px;
+    border: 1px solid silver;
+}
+
+
+/* body { 
+    border: 1px solid black;
+} */

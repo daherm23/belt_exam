@@ -1,0 +1,22 @@
+<h3>Edit this pet</h3>
+<form (submit)="editPetFromService()">
+    <label for="editPet.name">Pet name: 
+        <input type="text" name="editPet.name" [(ngModel)]="editPet.name" required minlength="3">
+    </label><br><br>
+    <label for="editPet.type">Pet type: 
+        <input type="text" name="editPet.type" [(ngModel)]="editPet.type" required minlength="3">
+    </label><br><br>
+    <label for="editPet.description">Description: 
+        <input type="description" name="editPet.description" [(ngModel)]="editPet.description" required minlength="3">
+    </label><br><br>
+
+    <li>Skills (optional):</li> 
+        <ul>
+                Skill 1:<input type="skills[0]" name="editPet.skills[0]"  [(ngModel)]="editPet.skills[0]" #skills[0]="ngModel"><br><br>
+                Skill 2:<input type="skills[1]" name="editPet.skills[1]" [(ngModel)]="editPet.skills[1]" #skills[1]="ngModel"><br><br>
+                Skill 3:<input type="skills[2]" name="editPet.skills[2]" [(ngModel)]="editPet.skills[2]" #skills[2]="ngModel"><br><br>    
+        </ul>
+
+    <input class = "submit" type="submit" value="Edit pet">
+    <button class = "button" [routerLink]="['/details']">Cancel</button>
+</form>
